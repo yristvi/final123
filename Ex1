@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	double a,b;
+	scanf("%lf",&a);
+	scanf("%lf",&b);
+	double x;
+	x=(a-b)*(a-b);
+	printf("%.2lf",x);
+	return 0;
+ }
