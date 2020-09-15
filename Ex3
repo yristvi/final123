@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(int argc, char *argv[])
+{
+    int max=*argv[0];
+    for(int i=1;i<argc;i++)
+    {
+        if(*argv[i]>*argv[i-1]){
+            max=*argv[i];
+        }
+    }
+    printf("%d",max);
+    return 0;
+}
